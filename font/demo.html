@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head><!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <meta charset="UTF-8"><style type="text/css">/*
+  <head><!--[if lt IE 9]><script language="javascript" type="text/javascript" src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <meta charset="UTF-8"><style>/*
  * Bootstrap v2.2.1
  *
  * Copyright 2012 Twitter, Inc
@@ -228,14 +227,59 @@ body {
 .i-code {
   display: none;
 }
-</style>
-    <link rel="stylesheet" href="css/fontello.css">
-    <link rel="stylesheet" href="css/animation.css"><!--[if IE 7]>
-    <link rel="stylesheet" href="css/fontello-ie7.css"><![endif]-->
+@font-face {
+      font-family: 'mail';
+      src: url('./font/mail.eot?56422030');
+      src: url('./font/mail.eot?56422030#iefix') format('embedded-opentype'),
+           url('./font/mail.woff?56422030') format('woff'),
+           url('./font/mail.ttf?56422030') format('truetype'),
+           url('./font/mail.svg?56422030#mail') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+     
+     
+    .demo-icon
+    {
+      font-family: "mail";
+      font-style: normal;
+      font-weight: normal;
+      speak: none;
+     
+      display: inline-block;
+      text-decoration: inherit;
+      width: 1em;
+      margin-right: .2em;
+      text-align: center;
+      /* opacity: .8; */
+     
+      /* For safety - reset parent styles, that can break glyph codes*/
+      font-variant: normal;
+      text-transform: none;
+     
+      /* fix buttons height, for twitter bootstrap */
+      line-height: 1em;
+     
+      /* Animation center compensation - margins should be symmetric */
+      /* remove if not needed */
+      margin-left: .2em;
+     
+      /* You can be more comfortable with increased icons size */
+      /* font-size: 120%; */
+     
+      /* Font smoothing. That was taken from TWBS */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+     
+      /* Uncomment for 3D effect */
+      /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+    }
+     </style>
+    <link rel="stylesheet" href="css/animation.css"><!--[if IE 7]><link rel="stylesheet" href="css/mail-ie7.css"><![endif]-->
     <script>
       function toggleCodes(on) {
         var obj = document.getElementById('icons');
-        
+      
         if (on) {
           obj.className += ' codesOn';
         } else {
@@ -248,7 +292,7 @@ body {
   <body>
     <div class="container header">
       <h1>
-        fontello
+        mail
          <small>font demo</small>
       </h1>
       <label class="switch">
@@ -257,28 +301,44 @@ body {
     </div>
     <div id="icons" class="container">
       <div class="row">
-        <div title="Code: 0xe806" class="the-icons span3"><i class="icon-mail"></i> <span class="i-name">icon-mail</span><span class="i-code">0xe806</span></div>
-        <div title="Code: 0xe80f" class="the-icons span3"><i class="icon-cancel"></i> <span class="i-name">icon-cancel</span><span class="i-code">0xe80f</span></div>
-        <div title="Code: 0xe804" class="the-icons span3"><i class="icon-paper-plane"></i> <span class="i-name">icon-paper-plane</span><span class="i-code">0xe804</span></div>
-        <div title="Code: 0xe803" class="the-icons span3"><i class="icon-doc-text"></i> <span class="i-name">icon-doc-text</span><span class="i-code">0xe803</span></div>
+        <div title="Code: 0xe800" class="the-icons span3"><i class="demo-icon icon-home-outline">&#xe800;</i> <span class="i-name">icon-home-outline</span><span class="i-code">0xe800</span></div>
+        <div title="Code: 0xe801" class="the-icons span3"><i class="demo-icon icon-picture">&#xe801;</i> <span class="i-name">icon-picture</span><span class="i-code">0xe801</span></div>
+        <div title="Code: 0xe802" class="the-icons span3"><i class="demo-icon icon-cancel">&#xe802;</i> <span class="i-name">icon-cancel</span><span class="i-code">0xe802</span></div>
+        <div title="Code: 0xe803" class="the-icons span3"><i class="demo-icon icon-trophy">&#xe803;</i> <span class="i-name">icon-trophy</span><span class="i-code">0xe803</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe80e" class="the-icons span3"><i class="icon-github-circled"></i> <span class="i-name">icon-github-circled</span><span class="i-code">0xe80e</span></div>
-        <div title="Code: 0xe808" class="the-icons span3"><i class="icon-twitter-circled"></i> <span class="i-name">icon-twitter-circled</span><span class="i-code">0xe808</span></div>
-        <div title="Code: 0xe807" class="the-icons span3"><i class="icon-facebook-circled"></i> <span class="i-name">icon-facebook-circled</span><span class="i-code">0xe807</span></div>
-        <div title="Code: 0xe809" class="the-icons span3"><i class="icon-gplus-circled"></i> <span class="i-name">icon-gplus-circled</span><span class="i-code">0xe809</span></div>
+        <div title="Code: 0xe804" class="the-icons span3"><i class="demo-icon icon-download">&#xe804;</i> <span class="i-name">icon-download</span><span class="i-code">0xe804</span></div>
+        <div title="Code: 0xe805" class="the-icons span3"><i class="demo-icon icon-user-1">&#xe805;</i> <span class="i-name">icon-user-1</span><span class="i-code">0xe805</span></div>
+        <div title="Code: 0xf056" class="the-icons span3"><i class="demo-icon icon-github-circled-alt2">&#xf056;</i> <span class="i-name">icon-github-circled-alt2</span><span class="i-code">0xf056</span></div>
+        <div title="Code: 0xf09b" class="the-icons span3"><i class="demo-icon icon-github-circled">&#xf09b;</i> <span class="i-name">icon-github-circled</span><span class="i-code">0xf09b</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe80a" class="the-icons span3"><i class="icon-pinterest-circled"></i> <span class="i-name">icon-pinterest-circled</span><span class="i-code">0xe80a</span></div>
-        <div title="Code: 0xe80b" class="the-icons span3"><i class="icon-linkedin-circled"></i> <span class="i-name">icon-linkedin-circled</span><span class="i-code">0xe80b</span></div>
-        <div title="Code: 0xe80c" class="the-icons span3"><i class="icon-dribbble-circled"></i> <span class="i-name">icon-dribbble-circled</span><span class="i-code">0xe80c</span></div>
-        <div title="Code: 0xe80d" class="the-icons span3"><i class="icon-stumbleupon-circled"></i> <span class="i-name">icon-stumbleupon-circled</span><span class="i-code">0xe80d</span></div>
+        <div title="Code: 0xf0d4" class="the-icons span3"><i class="demo-icon icon-gplus-squared">&#xf0d4;</i> <span class="i-name">icon-gplus-squared</span><span class="i-code">0xf0d4</span></div>
+        <div title="Code: 0xf0e0" class="the-icons span3"><i class="demo-icon icon-mail-alt">&#xf0e0;</i> <span class="i-name">icon-mail-alt</span><span class="i-code">0xf0e0</span></div>
+        <div title="Code: 0xf0f6" class="the-icons span3"><i class="demo-icon icon-doc-text">&#xf0f6;</i> <span class="i-name">icon-doc-text</span><span class="i-code">0xf0f6</span></div>
+        <div title="Code: 0xf16a" class="the-icons span3"><i class="demo-icon icon-youtube-play">&#xf16a;</i> <span class="i-name">icon-youtube-play</span><span class="i-code">0xf16a</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe802" class="the-icons span3"><i class="icon-picture"></i> <span class="i-name">icon-picture</span><span class="i-code">0xe802</span></div>
-        <div title="Code: 0xe801" class="the-icons span3"><i class="icon-trophy"></i> <span class="i-name">icon-trophy</span><span class="i-code">0xe801</span></div>
-        <div title="Code: 0xe800" class="the-icons span3"><i class="icon-user"></i> <span class="i-name">icon-user</span><span class="i-code">0xe800</span></div>
-        <div title="Code: 0xe805" class="the-icons span3"><i class="icon-download"></i> <span class="i-name">icon-download</span><span class="i-code">0xe805</span></div>
+        <div title="Code: 0xf17d" class="the-icons span3"><i class="demo-icon icon-dribbble">&#xf17d;</i> <span class="i-name">icon-dribbble</span><span class="i-code">0xf17d</span></div>
+        <div title="Code: 0xf1a4" class="the-icons span3"><i class="demo-icon icon-stumbleupon">&#xf1a4;</i> <span class="i-name">icon-stumbleupon</span><span class="i-code">0xf1a4</span></div>
+        <div title="Code: 0xf1d8" class="the-icons span3"><i class="demo-icon icon-paper-plane">&#xf1d8;</i> <span class="i-name">icon-paper-plane</span><span class="i-code">0xf1d8</span></div>
+        <div title="Code: 0xf230" class="the-icons span3"><i class="demo-icon icon-facebook-official">&#xf230;</i> <span class="i-name">icon-facebook-official</span><span class="i-code">0xf230</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xf301" class="the-icons span3"><i class="demo-icon icon-github-circled-1">&#xf301;</i> <span class="i-name">icon-github-circled-1</span><span class="i-code">0xf301</span></div>
+        <div title="Code: 0xf30a" class="the-icons span3"><i class="demo-icon icon-twitter-circled">&#xf30a;</i> <span class="i-name">icon-twitter-circled</span><span class="i-code">0xf30a</span></div>
+        <div title="Code: 0xf30c" class="the-icons span3"><i class="demo-icon icon-linkedin-squared">&#xf30c;</i> <span class="i-name">icon-linkedin-squared</span><span class="i-code">0xf30c</span></div>
+        <div title="Code: 0xf30d" class="the-icons span3"><i class="demo-icon icon-facebook-circled">&#xf30d;</i> <span class="i-name">icon-facebook-circled</span><span class="i-code">0xf30d</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xf30f" class="the-icons span3"><i class="demo-icon icon-gplus">&#xf30f;</i> <span class="i-name">icon-gplus</span><span class="i-code">0xf30f</span></div>
+        <div title="Code: 0xf310" class="the-icons span3"><i class="demo-icon icon-gplus-circled">&#xf310;</i> <span class="i-name">icon-gplus-circled</span><span class="i-code">0xf310</span></div>
+        <div title="Code: 0xf313" class="the-icons span3"><i class="demo-icon icon-pinterest-circled">&#xf313;</i> <span class="i-name">icon-pinterest-circled</span><span class="i-code">0xf313</span></div>
+        <div title="Code: 0xf319" class="the-icons span3"><i class="demo-icon icon-linkedin-circled">&#xf319;</i> <span class="i-name">icon-linkedin-circled</span><span class="i-code">0xf319</span></div>
+      </div>
+      <div class="row">
+        <div title="Code: 0xf31c" class="the-icons span3"><i class="demo-icon icon-dribbble-circled">&#xf31c;</i> <span class="i-name">icon-dribbble-circled</span><span class="i-code">0xf31c</span></div>
+        <div title="Code: 0xf31f" class="the-icons span3"><i class="demo-icon icon-stumbleupon-circled">&#xf31f;</i> <span class="i-name">icon-stumbleupon-circled</span><span class="i-code">0xf31f</span></div>
       </div>
     </div>
     <div class="container footer">Generated by <a href="http://fontello.com">fontello.com</a></div>
