@@ -1,91 +1,740 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-<title>Ravshanbek Norboev</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="css/bootstrap.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link href="font/css/fontello.css" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400italics,700' rel='stylesheet' type='text/css'>
-<link href="css/default.css" rel="stylesheet">
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Welcome to my personal website</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="icon.png" >
 
 </head>
+
 <body>
 
-<div class="navbar">
-<div class="banner">
-  <div class="navbar-inner">
-    <div class="container"> <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> <a class="brand" href="index.html"><img src="img/m2.png" style="width: 64px;height: 64px;" alt="logo"></a>
-      <ul class="nav nav-collapse pull-right">
-        <li><a href="index.html" class="active"><i class="icon-home-outline"></i> Home</a></li>
-        <li><a href="http://linuxgeek0.blogspot.com/"><i class="icon-doc-text"></i> Blogs</a></li>
-        <li><a href="resume.html"><i class="icon-trophy"></i> Projects</a></li>
-        <li><a href="#.html"><i class="icon-user-1"></i> About</a></li>
-      <div class="nav-collapse collapse"></div>
-    </div>
-  </div>
+   <!-- Header
+   ================================================== -->
+   <header id="home">
 
-     <!-- script-for-menu --> 
-      <div id="banner-top" class="banner-top">            
-        <h1>HI, I'm Ravshanbek Norboev</h1>
-        <h2>Welcome to my website</h2>
-        <div class="logo">
-        <a href="index.html"><img src="img/m2.png" class="img-responsive" style="width:304px;height:228px;" alt="">
-        </a>
-        </div>
-        </div>
- 
+      <nav id="nav-wrap">
 
-        <div class="row social">
-  <ul class="social-icons">
-               
-               <li><a href="https://www.linkedin.com/in/rnorboev" target="_blank"><i class="icon-linkedin-circled"></i></a></li>
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
-               <li><a href="https://github.com/rnorboev" target="_blank"><i class="icon-github-circled"></i></a></li>
-        
-               <li><a href="https://plus.google.com/u/0/104596258774987121794" target="_blank"><i class="icon-gplus-circled"></i></a></li>
-               
-               <li><a href="https://www.facebook.com/rnorboev" target="_blank"><i class="icon-facebook-circled"></i></a></li>
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Works</a></li>
+            <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+            <li><a class="smoothscroll" href="#contact">Blog</a></li> 
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
 
-               <li><a href="https://www.youtube.com/channel/UC5xmg5NyoGMOvYLa97RUZzg" target="_blank"><i class=" icon-youtube-play"></i></a></li>
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Ravshanbek Norboev</h1>
+            <h3>I'm Ravshanbek Norboev, curious about new technology.  Majoring in <span>Computer Networking</span>, <span>Software Engineering</span> and <span>Cyber Security</span> by creating new ideas and new projects. Committed to providing high quality service; quick learner with superb decision
+making abilities. Extremely well versed in public relations and motivated to work.
+            Let's <a class="smoothscroll" href="#about">start scrolling</a>
+            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+                <li><a href="https://www.linkedin.com/in/rnorboev/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/rnorboev" target="_blank"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://www.facebook.com/rnorboev" target="_blank"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://twitter.com/norboevr" target="_blank"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://www.youtube.com/c/LINUXGEEK" target="_blank"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>My name is Ravshanbek Norboev. I am currently a senior attending North American University. I am double major Computer Engineering and Computer Networking. I enjoy taking complex problems and solving them. I also love the logic and structure of coding and always try to write elegant and efficient code, whether it be Java, Python, PHP.
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Ravshanbek Norboev</span><br>
+						   <span>Houston TX
+                     </span><br>
+						   <span>(713)517-4286</span><br>
+                     <span>rnorboev.com</span>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>North American University</h3>
+                  <p class="info">BS in Computer Science <span>&bull;</span> <em class="date">May 2018</em></p>
+
+                  <p>
+                      
+                 I am doing my Bachelor in Computer Science with the concentrations in Computer Engineering and Computer Networks. I have a plan to do my masters related to Cyber Security.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Work
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Experience</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>TEMPLE UNIVERSITY</h3>
+                  <p class="info">UNDERGRADUATE RESEARCH ASSISTANT (REU)<span>&bull;</span> <em class="date">May 2017 -  August 2017</em></p>
+
+                  <p>Worked with <a href="https://cis.temple.edu/~qzeng/">Prof. Qiang Zeng</a> and Temple undergraduate students on topic "Effectiveness of SSN (Stochastic Stealthy Network), a Novel Defense, Against Mobile App Repakaging.<br>
+                      * Researched techniques by which an attacker can bypass SSN, and evaluated guidelines for future work on new defenses.<br>                     
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>BERKELEY RESEARCH GROUP</h3>
+                  <p class="info">CYBER SECURITY MENTEE<span>&bull;</span> <em class="date">January 2016 - May 2016</em></p>
+
+                  <p>
+                      In this short time. I learned a lot of useful things related to my major. <br> * Getting survey in official site instead of special survey benchmarking. <br> * Part of team who works on creating database and collecting data. <br> * Created database and Learned R script to collect the data from user.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Work -->
+
+
+      <!-- Skills
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>In 4 years of University I gained a lot of skills and experiences.
+            </p>
+
+				<div class="bars">
+
+				   <ul class="skills">
+                       <li><span class="bar-expand css"></span><em>JAVA</em></li>
+                       <li><span class="bar-expand html5"></span><em>Python</em></li>
+					   <li><span class="bar-expand photoshop"></span><em>Linux Admin</em></li>
+                       <li><span class="bar-expand photoshop"></span><em>Cyber Security Tools</em></li>
+                  <li><span class="bar-expand illustrator"></span><em>Web programming</em></li>
+						<li><span class="bar-expand wordpress"></span><em>Android Development</em></li>
+                       <li><span class="bar-expand html5"></span><em>networking</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+      </div> <!-- End skills -->
+
+   </section> <!-- Resume Section End-->
+
+<!-- Projects Part
+   <!-- Portfolio Section
+   ==================================================
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Projects.</h1>
+
+            <!-- portfolio-wrapper 
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/coffee.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Coffee</h5>
+                              <p>Illustrration</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end 
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/console.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Console</h5>
+                              <p>Web Development</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end 
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/judah.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Judah</h5>
+                              <p>Webdesign</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end 
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/into-the-light.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Into The Light</h5>
+                              <p>Photography</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end 
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="images/portfolio/farmerboy.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Farmer Boy</h5>
+                              <p>Branding</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end 
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-06" title="">
+                        <img alt="" src="images/portfolio/girl.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Girl</h5>
+                              <p>Photography</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end 
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-07" title="">
+                        <img alt="" src="images/portfolio/origami.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Origami</h5>
+                              <p>Illustrration</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end 
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-08" title="">
+                        <img alt="" src="images/portfolio/retrocam.jpg">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Retrocam</h5>
+                              <p>Web Development</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div>  <!-- item end
+
+            </div> <!-- portfolio-wrapper end 
+
+         </div> <!-- twelve columns end 
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- 
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Coffee Cup</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End 
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Console</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Judah</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End 
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Into the Light</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End 
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Farmer Boy</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-05 End 
+
+         <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Girl</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 End 
+
+         <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Origami</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 End 
+
+         <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Retrocam</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End 
+
+
+      </div> <!-- row End 
+
+   </section> <!-- Portfolio Section End
+-->
+
+  
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>Client Testimonials</span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                           <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+                           to do what you believe is great work. And the only way to do great work is to love what you do.
+                           If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+                           </p>
+                           <cite>Steve Jobs</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                     <li>
+                        <blockquote>
+                           <p>Talk is cheap. Show me the code.
+                           </p>
+                           <cite>Linus Torvalds</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+                      <li>
+                        <blockquote>
+                           <p>I'm not a great programmer; I'm just a good programmer with great habits.
+                           </p>
+                           <cite>Kent Beck</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead">You can contact by email or by filling the form.
+                  </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+
+                  <div>
+						   <label for="contactName">Name <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+						   <label for="contactEmail">Email <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+						   <label for="contactSubject">Subject</label>
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                     <button class="submit">Submit</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+
+					</fieldset>
+				   </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> Error boy</div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+               <div class="widget widget_contact">
+
+					   <h4>Address and Phone</h4>
+					   <p class="address">
+						   Ravshanbek Norboev<br>
+						    <br>
+						  Houston, TX<br>
+						   <span>(713) 517-4286</span>
+					   </p>
+
+				   </div>
+
+            </aside>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://www.linkedin.com/in/rnorboev/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/rnorboev" target="_blank"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://www.facebook.com/rnorboev" target="_blank"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://twitter.com/norboevr" target="_blank"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://www.youtube.com/c/LINUXGEEK" target="_blank"><i class="fa fa-youtube"></i></a></li>
             </ul>
 
-  </div>
- </div>
+            <ul class="copyright">
+               <li>&copy; Copyright 2017 Ravshanbek</li>
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
+            </ul>
 
-</div>
-  </div>
+         </div>
 
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
 
+      </div>
 
+   </footer> <!-- Footer End-->
 
-<div class="footer" href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css">
-  <div class="container">
-    <p class="pull-left">&copy; 2017 Ravshanbek Norboev</p>
-    <p class="pull-right"><a href="#myModal" role="button" data-toggle="modal"> <i class="icon-mail-alt"></i> CONTACT</a></p>
-  </div>
-</div>
-<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="myModalLabel"><i class="icon-mail"></i> Contact Me</h3>
-  </div>
-  <div class="modal-body">
-    <form action="#">
-      <input type="text" placeholder="Full Name">
-      <input type="text" placeholder="Email Address">
-      <input type="text" placeholder="Subject">
-      <textarea rows="3" style="width:80%"></textarea>
-      <br>
-      <button type="submit" class="btn btn-large"><i class="icon-paper-plane"></i> SUBMIT</button>
-    </form>
-  </div>
-</div>
-<script src="js/jquery-1.10.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script>
-$('#myModal').modal('hidden')
-</script>
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
 </body>
+
 </html>
